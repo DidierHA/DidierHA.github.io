@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+  margin: 0;
+}
+
+.michis {
+  display: flex;
+  width: 90vw;
+}
+
+.imagenes {
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh;
+  border-radius: 50px;
+  color: white;
+  cursor: pointer;
+  flex: 0.5;
+  position: relative;
+  margin: 10px;
+  transition: flex 0.9s ease-in;
+}
+
+.imagenes h3 {
+  font-size: 24px;
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  margin: 0;
+  opacity: 0;
+}
+
+.imagenes.activa {
+  flex: 5;
+  transition: opacity 0.3s ease-in 0.5s;
+}
+
+.imagenes.activa h3 {
+  opacity: 1;
+  transition: opacity 0.3s ease-in 0.4s;
+}
