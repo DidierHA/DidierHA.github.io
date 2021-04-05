@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <section class="todoapp">
+      <header class="header">
+        <h1>Lista de tareas</h1>
+        <input class="new-todo" placeholder="Ingresar una nueva tarea" autofocus>
+      </header>
+      <section class="main">
+        <input id="toggle-all" class="toggle-all" type="checkbox">
+        <label for="toggle-all">Mark all as complete</label>
+        <ul class="todo-list"></ul>
+      </section>
+      <footer class="footer">
+        <ul class="filters">
+          <li>
+            <a class="selected filtro" class="selected" href="#/">Todos</a>
+          </li>
+          <li>
+            <a class="filtro" href="#/active">Pendientes</a>
+          </li>
+          <li>
+            <a class="filtro" href="#/completed">Completados</a>
+          </li>
+        </ul>
+        <button class="clear-completed">Borrar completados</button>
+      </footer>
+    </section>
+    <footer class="info">
+      <p>Template creado por <a href="http://sindresorhus.com">Sindre Sorhus</a></p>
+      <p>Creado por <a href="DidierHA.github.io">Didier Hernández</a></p>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+
+</html>
