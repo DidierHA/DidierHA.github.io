@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('https://lh6.googleusercontent.com/1duJEwATy5qApRzXDZlfv3nFYqtfzQQdTOzVeWB5TT0k108L6zdmqEH4JQ152ZzToTnXXUGQrWF5_IgRK7lHMa2UHqrAOTMZ4gVdnMmk4IUkOnAx8IplTjIUh_u5rZehkvGshoUqnoKPui2iWA');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+}
+
+.contenedor {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contador {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+h1 {
+    font-size: 70px;
+    padding: 30px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+.dias,.horas,.minutos,.segundos {
+    font-size: 50px;
+} 
